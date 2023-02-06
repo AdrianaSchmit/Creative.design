@@ -106,3 +106,39 @@
     transition: all 2.5s;
    
 }
+
+
+.section-1-heading{
+   font-size: 8rem;
+   font-family: "Bungee", cursive ;
+   position: absolute;
+   top: 18vw;
+   left: 50%;
+   transform: translate(-50%);
+   text-shadow: 0.3rem 0.3rem 0.3rem #888;
+    color: #FBEAEB ;
+    background-color: #4BB9E8 ;
+   width: 85rem; 
+   text-align: center;
+   padding: 0.8rem 1.6rem;
+   border-radius: 0.8rem;
+   opacity: 0.9;
+   
+}
+
+
+.logo{
+   position: absolute;
+   top: 70%;
+   left: 50%;
+   transform: translateX(-50%);
+   
+}
+
+.logo i{
+    font-size: 15rem;
+    color: #007CE8 ;
+    text-shadow: 0.1rem 0.1rem 0.2rem #003869, -0.1rem -0.1rem 0.2rem #003869;
+
+    
+ }
