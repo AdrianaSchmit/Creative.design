@@ -74,3 +74,35 @@
    transform: rotate(360deg);
    }
   }
+
+
+   
+.navbar{
+    position: relative;
+    z-index: 20;
+    top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.navbar-link{
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color:#FBEAEB ;
+    width: 1.5rem;
+    word-wrap: break-word;
+/*     In this example, the "word-wrap" property is set to "break-word", and the "width" property is set to 1.5rem. This means that if the 
+    text inside the "element" class is longer than 1.5rem, it will wrap to the next line and be broken into multiple lines if necessary, instead of overflowing the element and being hidden from view. */
+    text-align: center;
+    transition: all 2.5s;
+    text-transform: uppercase;
+}
+
+.navbar-link:hover{
+    width: 15rem; 
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 2.5s;
+   
+}
