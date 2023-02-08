@@ -20,7 +20,8 @@ html {
 /*   if you set the font size of the body element to 100% (16px), and then set a heading to 1.5 rem, the heading font size would be 24px (16 x 1.5). 
   If you then change the body font size to 80%, the heading font size would adjust accordingly to match (12 x 1.5 = 18px). */
 
-body {
+.container {
+  width: 100%;
   overflow-x: hidden;
 }
 
