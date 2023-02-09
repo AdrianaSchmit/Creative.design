@@ -15,6 +15,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 /*   if you set the font size of the body element to 100% (16px), and then set a heading to 1.5 rem, the heading font size would be 24px (16 x 1.5). 
@@ -467,4 +468,27 @@ html {
   letter-spacing: 0.2rem;
   color: #444;
   margin-top: 5rem;
+}
+
+
+/* --------------------------------------------------------------------scroll up*/
+
+.scroll-up-btn {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(50, 231, 255, 0.8);
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+
+.scroll-up-btn:hover {
+  background-color: #32e7ff;
 }
